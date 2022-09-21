@@ -1,0 +1,26 @@
+.container{
+        display: flex;
+    justify-content: center;
+    }
+body{
+    background-color: rgb(189, 192, 182);
+}
+.calculator{
+    display: grid;
+   margin-left: 40%;margin-right: 40%;margin-top: 10%;margin-bottom: 20%;
+   grid-template-columns: repeat(4,100px);
+      }
+input{
+    grid-column: span 4;
+    text-align: end;
+    height: 30px;
+    font-size: medium;
+}
+button{
+    height: 40px;
+    font-size: medium;
+      
+}
+.equal{
+    width: 200px;
+}
